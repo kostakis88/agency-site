@@ -1,8 +1,9 @@
-import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="header">
+    <div className="max-w-[1172px] mx-auto px-6">
+      <Header />
     </div>
   );
 }
